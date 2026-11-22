@@ -5,11 +5,11 @@ export default function handler(req, res) {
 
   const adminPassword = "luna2026";
 
-  if (!adminPassword) {
-    return res.status(500).json({
-      error: "ADMIN_PASSWORD is not configured."
-    });
-  }
+  // if (!adminPassword) {
+  //   return res.status(500).json({
+  //     error: "ADMIN_PASSWORD is not configured."
+  //   });
+  // }
 
   const password = String(req.body?.password || "");
 
