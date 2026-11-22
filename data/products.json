@@ -11,20 +11,6 @@
   },
   "products": [
     {
-      "id": "suit-001",
-      "name": "Emerald Green Embroidered Suit",
-      "price": 1499,
-      "description": "Elegant green ethnic suit with detailed embroidery.",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OlaYwjjbMsblNHqOKcUXD7WQ0xf8bby6tdSPBPR8CA&s=10"
-    },
-    {
       "id": "suit-002",
       "name": "Pastel Blue Anarkali Suit",
       "price": 1799,
