@@ -3,7 +3,7 @@ export default function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const adminPassword = process.env.ADMIN_PASSWORD;
+  const adminPassword = "luna2026";
 
   if (!adminPassword) {
     return res.status(500).json({
